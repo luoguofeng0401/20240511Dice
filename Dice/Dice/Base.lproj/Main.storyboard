@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="7u5-eO-kEU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="7u5-eO-kEU">
                                 <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="I1e-hq-Y39">
                                 <rect key="frame" x="77" y="110" width="277" height="208"/>
@@ -48,6 +47,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7u5-eO-kEU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="868-ml-AS3"/>
+                            <constraint firstItem="7u5-eO-kEU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="avE-Qa-bqp"/>
+                            <constraint firstAttribute="bottom" secondItem="7u5-eO-kEU" secondAttribute="bottom" id="fQt-Vp-FXW"/>
+                            <constraint firstItem="7u5-eO-kEU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="lJN-mj-YW2"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="diceImageView1" destination="6ih-8i-xoE" id="9fu-bI-x9z"/>
